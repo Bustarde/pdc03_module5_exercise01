@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="module5_exercise.exercise01picker">
+    <ContentPage.Content>
+        <StackLayout
+            VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand">
+
+            <Picker Title="Select a Car">
+                <Picker.Items>
+                    <x:String>Ferrari</x:String>
+                    <x:String>Audi</x:String>
+                    <x:String>Jaguar</x:String>
+                    <x:String>BMW</x:String>
+                </Picker.Items>
+            </Picker>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
